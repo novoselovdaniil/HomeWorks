@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "349AA3DE-C712-4922-82B6-A256B1C6D2BF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7336C7DC-AD1C-4161-9AA1-AC7290AA1F48"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "homework/PhotoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "PhotoCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "7336C7DC-AD1C-4161-9AA1-AC7290AA1F48 - ea6044b79f7679fd"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "homework.PhotoController.PhotoCell.photo.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "homework"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniilnovoselov/Desktop/IOS%20DEVELOPMENT/HomeWorks/homework/homework/PhotoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "7336C7DC-AD1C-4161-9AA1-AC7290AA1F48 - 12de5377ac208df1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "homework.PhotoController.PhotoCell.photo.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "homework"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniilnovoselov/Desktop/IOS%20DEVELOPMENT/HomeWorks/homework/homework/PhotoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "7336C7DC-AD1C-4161-9AA1-AC7290AA1F48 - 8e2c0b6e2c30c2c0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "homework.PhotoController.PhotoCell.photo.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "homework"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniilnovoselov/Desktop/IOS%20DEVELOPMENT/HomeWorks/homework/homework/PhotoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "7336C7DC-AD1C-4161-9AA1-AC7290AA1F48 - cc87dfcdd4ca38ec"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "homework.PhotoController.PhotoCell.photo.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "homework"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniilnovoselov/Desktop/IOS%20DEVELOPMENT/HomeWorks/homework/homework/PhotoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "7336C7DC-AD1C-4161-9AA1-AC7290AA1F48 - c59c39a49255788b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "homework.PhotoController.PhotoCell.init(frame: __C.CGRect) -&gt; homework.PhotoController.PhotoCell"
+                  moduleName = "homework"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniilnovoselov/Desktop/IOS%20DEVELOPMENT/HomeWorks/homework/homework/PhotoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "7336C7DC-AD1C-4161-9AA1-AC7290AA1F48 - f3cef3db97ee03a6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "homework.PhotoController.PhotoCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;homework.PhotoController.PhotoCell&gt;"
+                  moduleName = "homework"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniilnovoselov/Desktop/IOS%20DEVELOPMENT/HomeWorks/homework/homework/PhotoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
