@@ -56,8 +56,6 @@ extension LoginViewController : WKNavigationDelegate {
         Session.shared.token = params["access_token"]!
         Session.shared.userId = params["user_id"]!
         
-    
-        
         
         
         decisionHandler(.cancel)

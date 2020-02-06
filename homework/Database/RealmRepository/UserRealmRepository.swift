@@ -9,7 +9,15 @@
 import Foundation
 import RealmSwift
 
-class UsersRepositoryRealm {
+protocol FriendsSource {
+    func getAllUsers() throws -> Results<UserRealm>
+    func addUser(users: [FriendItem])
+    func getUsers(name: String) throws -> Results<UserRealm>
+}
+
+class UsersRepositoryRealm : FriendsSource {
+   
+   
     func addUser(firstName: String, lastName: String, avatarPath: String) {
         let realm = try? Realm()
         let newUser = UserRealm()
@@ -24,7 +32,7 @@ class UsersRepositoryRealm {
         
     }
     
-    func getUsers() -> Results<UserRealm> {
+    func getAllUsers() -> Results<UserRealm> {
         let realm = try! Realm()
         return realm.objects(UserRealm.self)
     }

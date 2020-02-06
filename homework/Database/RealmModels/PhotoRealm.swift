@@ -13,7 +13,7 @@ class PhotoRealm: Object {
     @objc dynamic var id = 0
     @objc dynamic var imageName = ""
   
-    var sizes = List<PhotoSizesRealm>()
+    
     
     override class func primaryKey() -> String? {
         return "id"

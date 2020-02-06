@@ -15,12 +15,12 @@ class GroupRealm: Object {
     @objc dynamic var username = ""
     @objc dynamic var avatarPath = ""
      
-    var groups = List<Group>()
+ 
         
     override class func primaryKey() -> String? {
     return "id"
+    }
+
+
 }
-
-
-
 

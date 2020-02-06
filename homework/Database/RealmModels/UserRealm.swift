@@ -16,10 +16,11 @@ class UserRealm: Object {
     @objc dynamic var lastName = ""
     @objc dynamic var avatarPath = ""
     
-    var users = List<User>()
+   
     
     override class func primaryKey() -> String? {
     return "id"
     
 }
 
+}

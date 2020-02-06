@@ -16,41 +16,16 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var password: UITextField!
     
-    @IBOutlet weak var circle1: UIImageView!
-    
-    @IBOutlet weak var circle2: UIImageView!
-    
-    @IBOutlet weak var circle3: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        testAnimation()
+    
        
         let hideAction = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
         view.addGestureRecognizer(hideAction)
     }
 
-    func testAnimation() {
-        UIView.animate(withDuration: 0.2,
-                       delay: 0,
-                       options: [.repeat, .autoreverse],
-                       animations: {
-                        self.circle1.alpha = 0.5
-        })
-        UIView.animate(withDuration: 0.4,
-                        delay: 0,
-                        options: [.repeat, .autoreverse],
-                        animations: {
-                        self.circle2.alpha = 0.5
-                              })
-        UIView.animate(withDuration: 0.6,
-                              delay: 0,
-                              options: [.repeat, .autoreverse],
-                              animations: {
-                               self.circle3.alpha = 0.5
-               })
-        
-    }
+  
     
     @objc func hideKeyboard() {
         view.endEditing(true)

@@ -29,9 +29,13 @@ class VKApi {
                 } catch let error {
                     completion(.failure(RequestError.decodableError))
                 }
+                }
+                
+        }
+        
     }
     
-        func getFriendList(token: String, result : @escaping (Swift.Result<[User], Error>) -> Void) {
+    func getFriendList(token: String, result : @escaping (Swift.Result<[User], Error>) -> Void) {
             let requestURL = self.vkURL + "friends.get"
         
             let params = ["access_token": token,
@@ -54,7 +58,7 @@ class VKApi {
             
     }
     
-        func getPhoto(token: String, result: @escaping (Swift.Result<[Photo], Error>) -> Void) {
+    func getPhoto(token: String, result: @escaping (Swift.Result<[Photo], Error>) -> Void) {
             let requestURL = self.vkURL + "photos.get"
         
         let params = ["access_token": token,
@@ -87,7 +91,7 @@ class VKApi {
             }
         }
     }
-        func getGroupSearch(token: String, groupName: String) {
+    func getGroupSearch(token: String, groupName: String) {
             let requestURL = self.vkURL + "groups.search"
                            
             let params = ["access_token": token,

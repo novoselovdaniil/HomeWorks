@@ -33,6 +33,7 @@
 		E177E38A23E3DF72002BC84A /* UserRealmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E177E38923E3DF72002BC84A /* UserRealmRepository.swift */; };
 		E177E38C23E3DF7E002BC84A /* PhotoRealmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E177E38B23E3DF7E002BC84A /* PhotoRealmRepository.swift */; };
 		E177E38E23E3DF8C002BC84A /* GroupRealmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E177E38D23E3DF8C002BC84A /* GroupRealmRepository.swift */; };
+		E177E39023EA7682002BC84A /* FriendsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E177E38F23EA7682002BC84A /* FriendsPresenter.swift */; };
 		E17DF5DA23D8050C0014B7C0 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17DF5D923D8050C0014B7C0 /* Photo.swift */; };
 		E17DF5DC23D95F300014B7C0 /* UserRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17DF5DB23D95F300014B7C0 /* UserRealm.swift */; };
 		E1A7050923C6E7A700DA1D77 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A7050823C6E7A700DA1D77 /* News.swift */; };
@@ -72,6 +73,7 @@
 		E177E38923E3DF72002BC84A /* UserRealmRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRealmRepository.swift; sourceTree = "<group>"; };
 		E177E38B23E3DF7E002BC84A /* PhotoRealmRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRealmRepository.swift; sourceTree = "<group>"; };
 		E177E38D23E3DF8C002BC84A /* GroupRealmRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupRealmRepository.swift; sourceTree = "<group>"; };
+		E177E38F23EA7682002BC84A /* FriendsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPresenter.swift; sourceTree = "<group>"; };
 		E17DF5D923D8050C0014B7C0 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		E17DF5DB23D95F300014B7C0 /* UserRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRealm.swift; sourceTree = "<group>"; };
 		E1A7050823C6E7A700DA1D77 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				E133513A2394A232004583CE /* FriendList.swift */,
 				E133513C2396158A004583CE /* FriendCell.swift */,
 				E133513E23962122004583CE /* PhotoController.swift */,
+				E177E38F23EA7682002BC84A /* FriendsPresenter.swift */,
 			);
 			path = "Friends Screen";
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				E131706123A9D6F500564A30 /* NewsCell.swift in Sources */,
 				E177E38323D968D6002BC84A /* PhotoRealm.swift in Sources */,
 				E17DF5DC23D95F300014B7C0 /* UserRealm.swift in Sources */,
+				E177E39023EA7682002BC84A /* FriendsPresenter.swift in Sources */,
 				E13351452396380C004583CE /* SearchGroups.swift in Sources */,
 				E1F4BDE1238B624100A2C838 /* ViewController.swift in Sources */,
 				E16858CA23D6B9A200F998BD /* FriendsResponse.swift in Sources */,
