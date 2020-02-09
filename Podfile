@@ -7,7 +7,7 @@ target 'homework' do
 
  pod 'RealmSwift'
  pod 'Alamofire'
-
+ pod 'Firebase/Analytics'
   # Pods for homework
 
 end

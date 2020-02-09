@@ -34,6 +34,7 @@
 		E177E38C23E3DF7E002BC84A /* PhotoRealmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E177E38B23E3DF7E002BC84A /* PhotoRealmRepository.swift */; };
 		E177E38E23E3DF8C002BC84A /* GroupRealmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E177E38D23E3DF8C002BC84A /* GroupRealmRepository.swift */; };
 		E177E39023EA7682002BC84A /* FriendsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E177E38F23EA7682002BC84A /* FriendsPresenter.swift */; };
+		E177E39223F0BB39002BC84A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E177E39123F0BB39002BC84A /* GoogleService-Info.plist */; };
 		E17DF5DA23D8050C0014B7C0 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17DF5D923D8050C0014B7C0 /* Photo.swift */; };
 		E17DF5DC23D95F300014B7C0 /* UserRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17DF5DB23D95F300014B7C0 /* UserRealm.swift */; };
 		E1A7050923C6E7A700DA1D77 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A7050823C6E7A700DA1D77 /* News.swift */; };
@@ -74,6 +75,7 @@
 		E177E38B23E3DF7E002BC84A /* PhotoRealmRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRealmRepository.swift; sourceTree = "<group>"; };
 		E177E38D23E3DF8C002BC84A /* GroupRealmRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupRealmRepository.swift; sourceTree = "<group>"; };
 		E177E38F23EA7682002BC84A /* FriendsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPresenter.swift; sourceTree = "<group>"; };
+		E177E39123F0BB39002BC84A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E17DF5D923D8050C0014B7C0 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		E17DF5DB23D95F300014B7C0 /* UserRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRealm.swift; sourceTree = "<group>"; };
 		E1A7050823C6E7A700DA1D77 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
@@ -246,6 +248,7 @@
 				E1F4BDE7238B624700A2C838 /* LaunchScreen.storyboard */,
 				E1F4BDEA238B624700A2C838 /* Info.plist */,
 				E177E38423D96A8D002BC84A /* LoginViewController.swift */,
+				E177E39123F0BB39002BC84A /* GoogleService-Info.plist */,
 			);
 			path = homework;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			files = (
 				E1F4BDE9238B624700A2C838 /* LaunchScreen.storyboard in Resources */,
 				E1F4BDE6238B624700A2C838 /* Assets.xcassets in Resources */,
+				E177E39223F0BB39002BC84A /* GoogleService-Info.plist in Resources */,
 				E131706223A9D6F500564A30 /* NewsCell.xib in Resources */,
 				E1F4BDE4238B624100A2C838 /* Main.storyboard in Resources */,
 			);
